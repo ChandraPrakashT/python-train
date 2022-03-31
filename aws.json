@@ -1,0 +1,25 @@
+{
+    "project": {
+        "name": "DS Training"
+    },
+    "data_sources": {
+        "s3": {
+            "creds": {
+                "aws_access_key_id": "AKIA5JGSHTQ6CDUSHFGW",
+                "aws_secret_access_key": "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",
+				"bucket": "dataacumennew",
+				"region_name": "us-east-1",
+				"folder_path": "dataanalyticstraining/2022_02_18/"
+			}
+        },
+		"redshift":{
+			"creds": {
+				"username": "awsuser007",
+				"password": "Rs26sak714",
+				"host": "redshift-cluster-training-1.c600alkklf5r.us-east-1.redshift.amazonaws.com",
+				"port": 5439,
+				"database": "dev"
+			}
+		}
+    }
+}
